@@ -16,7 +16,7 @@ fetchData();
 const fetchData = async () => {
 try {
 setLoading(true);
-const response = await fetch('https://mockapi.io/clone/68394ff36561b8d882afd022');
+const response = await fetch('https://68394ff36561b8d882afd021.mockapi.io/videoGiochi');
 const json = await response.json();
 console.log(json);
 setData(json);
